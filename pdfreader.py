@@ -4,8 +4,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from os import listdir
 
-pdfs = [f for f in listdir()]
-for file in pdfs:
+full = [f for f in listdir()]
+for file in full:
 
     pdfname = file
     pdf = open(pdfname, 'rb')
@@ -22,7 +22,7 @@ for file in pdfs:
     if text != "":
         text = text
     else:
-        text = textract.process(fileurl, method='tesseract',language=ptbr)
+        continue
 
     tokens = word_tokenize(text)
     lixo = ['(',')',';',':','[',']',',','.']
