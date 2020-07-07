@@ -8,11 +8,11 @@ Como usar a spider:
 
 no codigo pdfdownloader existem varias diferentes spiders para sites diferentes, cada uma delas tem uma variavel name, essa variavel é o nome para ser utilizado no comando de rodar a spider. exemplo: scrapy crawl sbcm  
 
-Repositorios de pdf adicionados: anppom
-                                 sbcm
-                                 opus
-                                 permusi
-                                 abem
-                                 hodie
-                                 orfeu
-                                 revistamusica
+Repositorios de pdf adicionados: anppom  
+                                 sbcm  
+                                 opus  
+                                 permusi  
+                                 abem  
+                                 hodie  
+                                 orfeu  
+                                 revistamusica  
